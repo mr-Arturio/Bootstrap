@@ -36,3 +36,8 @@ example:
 <div class="col-md-6 col-xl-3 bg-info"></div>
 ``` 
  In this example, the column will take up one unit (100% off the screen or 12 columns) on small screens (md and below), medium and up to xl - two units on the page (12 max = 6 one unit + 6 another). xl and up - four units on the page (12=3+3+3+3)
+
+ ## Forms
+ In the old Bootstrap version (Bootstrap 4), the ```form-group``` class was commonly used to style form elements. However, in Bootstrap 5, the structure of forms and form controls has been updated, and the ```form-group``` class has been replaced with different styling approaches.
+
+In Bootstrap 5, you can style form controls individually using utility classes without wrapping them in a ```form-group``` container.
